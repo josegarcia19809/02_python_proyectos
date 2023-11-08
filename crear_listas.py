@@ -1,12 +1,12 @@
 """
-Primero, define una lista llamada my_stuff. Debe tener al menos 4 elementos.
+Primero, define una lista llamada mi_lista. Debe tener al menos 4 elementos.
 Los datos dependen completamente de ti, pero debe contener al menos 1 cadena y 1
 flotante.
 """
 
-# Define my_stuff
-my_stuff = ["hola", 3.5, 4, "true"]
-print(my_stuff)
+# Define mi_lista
+mi_lista = ["hola", 3.5, 4, "true"]
+print(mi_lista)
 
 """
 A continuación, define una lista llamada nums . Debe ser una lista que contenga todos 
