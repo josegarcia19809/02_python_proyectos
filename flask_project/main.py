@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect, url_for
 
 app = Flask(__name__)
 
@@ -16,6 +16,11 @@ def informacion():
 @app.route('/contacto')
 def contacto():
     return "<h1>Mi nombre es José Luis García</h1>"
+
+
+@app.route('/mostrar-contacto')
+def mostrar_contacto():
+    return redirect(url_for("contacto")) # POner el nombre de la función de la ruta
 
 
 @app.route('/lenguajes-de-programacion')
@@ -54,6 +59,19 @@ def mostrar_precio_producto(producto, precio):
         <h1>Página de información</h1>
         <p>Datos del producto {producto}</p>
         <p>Precio ${precio:,.2f}</p>
+    """
+
+
+@app.route('/mostrar-tipo-vehiculo')
+@app.route('/mostrar-tipo-vehiculo/<tipo>')
+def mostrar_tipo_vehiculo(tipo=None):
+    texto = ""
+    if tipo != None:
+        texto = f"Tipo de vehiculo {tipo}"
+    return f"""
+        <h1>Página de información</h1>
+        <p>Datos del vehiculo</p>
+        {texto}
     """
 
 
