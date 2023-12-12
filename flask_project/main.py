@@ -1,46 +1,38 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    return "Aprendiendo Flask"
+    return render_template("index.html")
 
 
 @app.route('/informacion')
 def informacion():
-    return "<h1>Página de información</h1>"
+    return render_template("informacion.html")
 
 
 @app.route('/contacto')
 def contacto():
-    return "<h1>Mi nombre es José Luis García</h1>"
+    return render_template("contacto.html")
 
 
 @app.route('/mostrar-contacto')
 def mostrar_contacto():
-    return redirect(url_for("contacto")) # POner el nombre de la función de la ruta
+    return redirect(url_for("contacto"))  # POner el nombre de la función de la ruta
 
 
 @app.route('/lenguajes-de-programacion')
 def lenguajes():
-    return """
-        <h1>Lenguajes de programación</h1>
-        <p>Python</p>
-        <p>Java</p>
-        <p>JavaScript</p>
-        <p>C++</p>
-        <p>C#</p>
-    """
+    return render_template("lenguajes-de-programacion.html")
 
 
 @app.route('/recibir-nombre/<nombre>')
 def recibir_nombre(nombre):
-    return f"""
-        <h1>Página de información</h1>
-        <h3>Bienvenido {nombre}</h3>
-    """
+    return render_template("recibir-nombre.html",
+                           nombre=nombre
+                           )
 
 
 @app.route('/mostrar-calificacion/<nombre>/<promedio>')

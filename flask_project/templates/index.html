@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo Flask</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+</head>
+<body>
+<h1>Aprendiendo Flask</h1>
+<hr>
+<div class="container">
+    <div class="row">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">
+                <a href="{{url_for('informacion')}}">Información</a>
+            </li>
+            <li class="list-group-item list-group-item-danger">
+                <a href="{{url_for('contacto')}}">Contacto</a>
+            </li>
+            <li class="list-group-item list-group-item-warning">
+                <a href="{{url_for('lenguajes')}}">Lenguajes de programación</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
