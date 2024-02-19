@@ -1,23 +1,23 @@
-school_class = {}
+estudiantes_escuela = {}
 
 while True:
-    name = input("Ingresa el nombre del estudiante: ")
-    if name == '':
+    nombre = input("Ingresa el nombre del estudiante: ")
+    if nombre == '':
         break
 
-    score = int(input("Ingresa la calificación del estudiante (0-10): "))
-    if score not in range(0, 11):
+    calificacion = int(input("Ingresa la calificación del estudiante (0-10): "))
+    if calificacion not in range(0, 11):
         break
 
-    if name in school_class:
-        school_class[name] += (score,)
+    if nombre in estudiantes_escuela:
+        estudiantes_escuela[nombre] += (calificacion,)
     else:
-        school_class[name] = (score,)
+        estudiantes_escuela[nombre] = (calificacion,)
 
-for name in sorted(school_class.keys()):
-    adding = 0
-    counter = 0
-    for score in school_class[name]:
-        adding += score
-        counter += 1
-    print(name, ":", adding / counter)
+for nombre in sorted(estudiantes_escuela.keys()):
+    suma = 0
+    contador = 0
+    for calificacion in estudiantes_escuela[nombre]:
+        suma += calificacion
+        contador += 1
+    print(nombre, ":", suma / contador)
