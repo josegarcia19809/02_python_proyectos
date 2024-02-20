@@ -3,55 +3,56 @@ def imprimir_linea():
 
 
 # Primera forma de crear un diccionario
-cat = {
-    "name": "blue",
-    "age": 3.5,
+gato = {
+    "nombre": "blue",
+    "edad": 3.5,
     "es_lindo": True
 }
 
-print(cat)
+print(gato)
 
 # Otra forma de crear un diccionario
-cat2 = dict(name="Kitty", age=4.0, es_lindo=True)
-print(cat2)
+gato2 = dict(nombre="Kitty", edad=4.0, es_lindo=True)
+print(gato2)
 
 imprimir_linea()
 # Mostrar datos
-print(cat["name"])
-print(cat2["name"])
+print(gato["nombre"])
+print(gato2["nombre"])
 try:
-    print(cat2["color"])
+    print(gato2["color"])
 except KeyError:
     print("La llave no existe")
 
 imprimir_linea()
 # Mostrar los valores
-print(cat.values())
+print(gato.values())
 # Iterar sobre los valores
-for value in cat.values():
+for value in gato.values():
     print(value)
 
 imprimir_linea()
 # Mostrar las claves
-print(cat.keys())
+print(gato.keys())
 # Iterar sobre los valores
-for key in cat.keys():
+for key in gato.keys():
     print(key)
 
 imprimir_linea()
 
 # Mostrar ambos valores
-print(cat.items())
+print(gato.items())
 # Iterar sobre ambos valores
-for k, v in cat.items():
+for k, v in gato.items():
     print(f"{k}: {v}")
 
 imprimir_linea()
+
 # Existe una llave
-print("name" in cat)
-print("last" in cat)
+print("nombre" in gato)
+print("last" in gato)
 imprimir_linea()
 
 # Existe un valor
-print("blue" in cat.values())
-print("red" in cat.values())
+print("blue" in gato.values())
+print("red" in gato.values())
