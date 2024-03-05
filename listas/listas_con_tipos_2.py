@@ -1,10 +1,12 @@
 # listas_con_tipos_2
 from typing import List
 
+print("-" * 100)
 N: int = 8  # tamaño de la lista
 
 
 def imprimir_lista(lista: List[float]) -> None:
+    """Esta función recibe una lista de floats e imprime su contenido"""
     for i in range(0, N):
         print(lista[i], end=' ')
     print()

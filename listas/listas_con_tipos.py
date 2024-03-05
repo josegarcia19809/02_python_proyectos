@@ -1,6 +1,7 @@
 # listas_con_tipos.py
 from typing import List
 
+print("-" * 100)
 N: int = 8  # tamaño de la lista
 x: List[float] = [14.0, 12.0, 8.0, 7.0, 6.41, 5.23, 6.15, 7.25]
 # Imprimir la lista
