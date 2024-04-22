@@ -1,0 +1,3 @@
+12|jose|paris|tokio|120.0
+13|luis|paris|colombia|300.0
+14|maria|mexico|california|300.0
