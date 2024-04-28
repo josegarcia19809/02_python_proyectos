@@ -1,0 +1,30 @@
+85|Lorena|Pekín|París|305.36
+41|Cristina|Tokio|París|233.39
+38|Laura|París|México|450.73
+82|Alberto|Nueva York|Los Ángeles|110.11
+87|Sofía|Nueva York|Londres|283.22
+2|Roberto|Tokio|Nueva York|434.32
+48|Ricardo|Madrid|Los Ángeles|312.47
+92|Valeria|Sídney|Madrid|174.42
+89|María|Pekín|Pekín|215.25
+44|Ana|México|México|164.64
+93|Claudia|Tokio|París|284.11
+52|Carmen|Madrid|Los Ángeles|285.45
+49|Martina|Sídney|Los Ángeles|326.56
+15|Fernando|Tokio|Roma|345.02
+100|Miguel|Berlín|Los Ángeles|246.51
+21|Jorge|Tokio|Roma|322.73
+3|Elena|París|Roma|480.41
+60|Lucía|Roma|Nueva York|424.63
+11|Paula|Londres|Los Ángeles|402.41
+70|Francisco|París|Madrid|401.07
+35|Diego|Roma|Los Ángeles|444.38
+64|Pedro|Tokio|Berlín|195.58
+7|Carlos|México|Madrid|124.11
+58|Pablo|México|Sídney|381.86
+18|Juan|Sídney|México|399.46
+55|Luisa|París|México|150.33
+98|José|Roma|Londres|240.27
+20|Javier|México|Berlín|150.47
+43|Andrés|Madrid|Londres|404.23
+71|Isabel|Nueva York|Madrid|120.83
