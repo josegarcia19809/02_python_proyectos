@@ -3,19 +3,19 @@ from typing import List
 
 class CuentaBancaria:
     def __init__(self, balance: float = 0.0):
-        self.balance = balance
+        self.__balance: float = balance
 
-    def depositar(self, cantidad: float):
-        self.balance += cantidad
+    def depositar(self, cantidad: float) -> None:
+        self.__balance += cantidad
 
-    def retirar(self, cantidad: float):
-        self.balance -= cantidad
+    def retirar(self, cantidad: float) -> None:
+        self.__balance -= cantidad
 
     def get_balance(self) -> float:
-        return self.balance
+        return self.__balance
 
     def set_balance(self, balance: float):
-        self.balance = balance
+        self.__balance = balance
 
 
 if __name__ == "__main__":
