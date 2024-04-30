@@ -3,9 +3,9 @@ from typing import List
 
 class Empleado:
     def __init__(self, id_empleado: int, nombre: str, apellido: str):
-        self.id = id_empleado
-        self.nombre = nombre
-        self.apellido = apellido
+        self.id: int = id_empleado
+        self.nombre: str = nombre
+        self.apellido: str = apellido
 
     def __str__(self) -> str:
         return f"Empleado{{id={self.id}, nombre='{self.nombre}', apellido='{self.apellido}'}}"
