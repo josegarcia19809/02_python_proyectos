@@ -8,7 +8,8 @@ class Empleado:
         self.apellido: str = apellido
 
     def __str__(self) -> str:
-        return f"Empleado{{id={self.id}, nombre='{self.nombre}', apellido='{self.apellido}'}}"
+        return (f"Empleado: id={self.id}, "
+                f"nombre={self.nombre}, apellido={self.apellido}")
 
 
 def imprimir_lista_empleados(empleados: List[Empleado]) -> None:
@@ -17,7 +18,7 @@ def imprimir_lista_empleados(empleados: List[Empleado]) -> None:
     print("-" * 100)
 
 
-if __name__ == "__main__":
+def main() -> None:
     print("-" * 100)
     # Crear una lista de Empleados: lista_empleados
     lista_empleados: List[Empleado] = []
@@ -33,17 +34,15 @@ if __name__ == "__main__":
     # Recuperar el Empleado en la posición 1
     print("Empleado en la posición 1: ")
     print(lista_empleados[1])
-    print("-------------------------------")
+    print("-"*100)
 
     # Comprobar si la lista está vacía
     print("¿Está vacía la lista de Empleados?")
     print(len(lista_empleados) == 0)
-    print("-------------------------------")
+    print("-"*100)
 
     # Reemplazar un elemento existente
     lista_empleados[1] = Empleado(678, "Arturo", "Morales")
-
-    # Imprimir la lista
     imprimir_lista_empleados(lista_empleados)
 
     # Añadir un elemento en el índice 1
@@ -53,3 +52,7 @@ if __name__ == "__main__":
     # Remover al Empleado del índice 2
     lista_empleados.pop(2)
     imprimir_lista_empleados(lista_empleados)
+
+
+if __name__ == "__main__":
+    main()
