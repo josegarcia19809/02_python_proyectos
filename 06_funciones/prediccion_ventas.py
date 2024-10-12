@@ -10,25 +10,27 @@
 
 def calcular_ventas_este(ventas_totales: float):
     ventas_este = ventas_totales * 0.60
-    print(f"Ventas Este: {ventas_este}")
+    print(f"Ventas Este: ${ventas_este:.2f}")
 
 
 def calcular_ventas_oeste(ventas_totales: float):
     ventas_oeste = ventas_totales * 0.20
-    print(f"Ventas Oeste: {ventas_oeste}")
+    print(f"Ventas Oeste: ${ventas_oeste:.2f}")
 
 
 def calcular_ventas_norte(ventas_totales: float):
     ventas_norte = ventas_totales * 0.60
-    print(f"Ventas Norte: {ventas_norte}")
+    print(f"Ventas Norte: ${ventas_norte:.2f}")
 
 
 def calcular_ventas_sur(ventas_totales: float):
     ventas_sur = ventas_totales * 0.60
-    print(f"Ventas Sur: {ventas_sur}")
+    print(f"Ventas Sur: ${ventas_sur:.2f}")
 
 
 def main():
+    print("La predicción de ventas de este año: $200,000")
+    print("Mostrando predicción de ventas de cada división")
     calcular_ventas_este(200000)
     calcular_ventas_oeste(200000)
     calcular_ventas_norte(200000)
