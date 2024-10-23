@@ -1,0 +1,20 @@
+prueba_calificaciones.txt
+
+número de materias: 5
+
+Algebra: 100
+Estadística: 80
+Programación: 50
+Cálculo: 10
+Geometría: 90
+
+Materias no aprobadas:
+Programación: 50
+Cálculo: 10
+
+Materias aprobadas:
+Algebra: 100
+Estadística: 80
+Geometría: 90
+
+promedio general: (330/5) = 66
