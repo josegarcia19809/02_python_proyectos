@@ -1,0 +1,9 @@
+horas = [20, 24, 30, 18, 1, 40]
+pago por hora = 100
+
+horas[0] * pago_hora -> 20 * 100 = 2000
+horas[1] * pago_hora -> 24 * 100 = 2400
+horas[2] * pago_hora -> 30 * 100 = 3000
+horas[3] * pago_hora -> 18 * 100 = 1800
+horas[4] * pago_hora -> 1 * 100 = 100
+horas[5] * pago_hora -> 40 * 100 = 4000
