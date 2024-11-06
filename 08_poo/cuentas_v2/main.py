@@ -17,12 +17,20 @@ def main():
     print(ahorros)
 
     # Pedir una cantidad a retirar
-    retiro = float(input("¿Cuánto vas a retirar? "))
+    efectivo = float(input("¿Cuánto te gustaría retirar? "))
     print("Esa cantidad se retirará de tu cuenta")
-    ahorros.retirar(retiro)
+    ahorros.retirar(efectivo)
+
     # Mostrar nuevamente el balance
     print(ahorros)
 
 
 if __name__ == "__main__":
     main()
+
+"""
+Balance inicial: 5000
+pago: 3000
+retirar: 4000
+Balance final debe ser $4000.00
+"""
