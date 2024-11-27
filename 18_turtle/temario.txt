@@ -1,9 +1,9 @@
-18 Turtle: Understanding Turtle Graphics and How to use the Documentation
+18 Turtle: Turtle Challenge 1 - Draw a Square
 12 clases • 1 h 28 min
 
 
 09:56
-Turtle Challenge 1 - Draw a Square
+
 02:28
 Importing Modules, Installing Packages, and Working with Aliases
 12:27
