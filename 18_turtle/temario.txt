@@ -1,4 +1,4 @@
-18 Turtle: Turtle Challenge 2 - Draw a Dashed Line
+18 Turtle: Turtle Challenge 3 - Drawing Different Shapes
 
 
 03:00
