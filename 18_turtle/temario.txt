@@ -1,9 +1,1 @@
-18 Turtle: Python Tuples and How to Generate Random RGB Colours
-
-
-
-07:21
-
-07:42
-Turtle Challenge 5 - Draw a Spirograph
-
+18 Turtle: Turtle Challenge 5 - Draw a Spirograph
