@@ -1,14 +1,9 @@
-18 Turtle: The Hirst Painting Project - Drawing the Dots
+18 Turtle: Python Tuples and How to Generate Random RGB Colours
 
 
 
 07:21
-Python Tuples and How to Generate Random RGB Colours
+
 07:42
 Turtle Challenge 5 - Draw a Spirograph
-09:26
-The Hirst Painting Project Part 1 - How to Extract RGB Values from Images
-13:24
 
-12:24
-Space out your study sessions and stay consistent
