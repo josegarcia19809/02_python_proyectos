@@ -1,1 +1,60 @@
 18 Turtle: Turtle Challenge 5 - Draw a Spirograph
+
+
+Funciones: ejercicios - Product
+
+1 preguntas
+SOLUTION
+00:03
+return_day
+1 preguntas
+SOLUTION
+00:33
+last_element
+1 preguntas
+SOLUTION
+00:08
+number_compare
+1 preguntas
+SOLUTION
+00:05
+single_letter_count
+1 preguntas
+SOLUTION
+00:09
+multiple_letter_count
+1 preguntas
+SOLUTION
+00:11
+list_manipulation
+1 preguntas
+SOLUTION
+00:10
+is_palindrome
+1 preguntas
+SOLUTION
+00:34
+frequency
+1 preguntas
+SOLUTION
+00:04
+multiply_even_numbers
+1 preguntas
+SOLUTION
+00:17
+capitalize
+1 preguntas
+SOLUTION
+00:07
+compact
+1 preguntas
+SOLUTION
+00:21
+intersection
+1 preguntas
+SOLUTION
+00:47
+partition
+1 preguntas
+SOLUTION
+00:44
