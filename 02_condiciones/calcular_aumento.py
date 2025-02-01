@@ -20,3 +20,11 @@ print(f"Tu sueldo nuevo es de {nuevo_sueldo}")
 
 
 
+# Pruebas
+# sueldo = 1000
+# aumento = 200
+# nuevo_sueldo = 1200
+
+# sueldo = 3000
+# aumento = 450
+# nuevo_sueldo = 3450
