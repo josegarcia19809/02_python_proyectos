@@ -1,38 +1,41 @@
-# paises.py
-
 # Crear una lista de países
-paises = ["Argentina", "México", "Estados Unidos", "Canada", "España", "Francia"]
+# Se utilizarán algunas operaciones sobre esta lista
+print("-" * 100)
+# Considera la lista paises, que contiene seis elementos de tipo cadena
+paises = ["Argentina", "México", "Estados Unidos", "Cánada", "España", "Francia"]
 
-print(paises)
+print(paises)  # imprime la lista
 
+# Acceso a países por su índice
 print(paises[0])
 print(paises[1])
 print(paises[2])
 print(paises[3])
 print(paises[4])
 print(paises[5])
-print()
 
+print("-" * 100)
 # Longitud de una lista
 print(f"Número de países en la lista: {len(paises)}")
-print()
-
-# Cambiar el elemento en el índice 3. En lugar de Canada, será Brasil
+print("-" * 100)
+# Cambiar el elemento que está en el índice 3
+# En lugar de Cánada será Brasil
 paises[3] = "Brasil"
+# Imprime los países
 print(paises)
 
-# Agregar un país
-nuevo_pais = input("Dame nombre del país: ")
+# Agregar un país ------> Holanda
+nuevo_pais = input("Dame el nombre de un país: ")
 paises.append(nuevo_pais)
 print(paises)
-print()
 
-# Mostrar todos los paises con un for
+# Mostrar todos los países con un for
 for pais in paises:
     print(pais)
 
 print()
-# Agregar otros 5 países
+
+# Agregando otros 5 países
 for i in range(5):
     nuevo_pais = input("Escribe país: ")
     paises.append(nuevo_pais)
@@ -42,4 +45,6 @@ print()
 for index in range(len(paises)):
     print(f"{index + 1}: {paises[index]}")
 
-# print(paises[100]) # ERROR
+print("-" * 100)
+# Intentar acceder a un elemento fuera de rango
+# print(paises[100])

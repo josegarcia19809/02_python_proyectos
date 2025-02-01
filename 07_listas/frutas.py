@@ -1,5 +1,7 @@
 # frutas.py
 
+# Este programa utiliza una lista de frutas para aplicarle operaciones
+
 frutas = []  # Se crea una lista vacía
 
 # Pedir 5 frutas y que las vaya anexando a la lista y después se imprime la lista
@@ -16,6 +18,8 @@ for fruta in frutas:
 
 # Pedir un índice para cambiar la fruta que esté en esa posición.
 # Imprimir un mensaje de error si el índice está fuera del rango.
+# pera, manzana, melón, sandía, durazno
+# 0     1           2   3       4
 
 indice = int(input("Dame índice de la fruta a cambiar: "))
 if 0 <= indice <= 4:

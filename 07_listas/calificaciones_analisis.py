@@ -31,6 +31,7 @@ for index in range(num_asignaturas):
     if calificaciones[index] >= 70:
         print(f"{asignaturas[index]}: {calificaciones[index]}")
 
+# Calcular el promedio
 total = 0
 for index in range(num_asignaturas):
     total = total + calificaciones[index]
