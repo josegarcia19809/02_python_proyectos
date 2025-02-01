@@ -1,0 +1,5 @@
+Juan	90
+Pedro	80
+Ana	80
+Antonia	70
+Ami	80
